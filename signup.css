@@ -1,0 +1,235 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+background-color: white;
+}
+.container{
+background-color: #f0f2f5; 
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 750px;
+
+
+}
+.email,.password{
+  outline: none;
+}
+.img--container{
+  display: flex;
+  justify-content: center;
+  
+  margin-top: -20px;
+
+}
+.img--form{
+  width: 100px;
+  height: 250px;
+}
+.div--login{
+  
+  font-size: 23px;
+  margin: 10px;
+  margin-top: 50px;
+  font-weight: 500;
+}
+.form--container{
+ 
+background-color: white;  
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 500px;
+height: 650px;
+margin-top: 10px ;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+
+ 
+}
+.div--form {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px ;
+  width: 390px;
+  border-color: rgb(227, 227, 227);
+  
+  
+}
+
+.name {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  margin-left: 10px;
+  margin-bottom: 8px;
+ 
+}
+
+
+.name >  input {
+  display: inline-block;
+  width: 184px;
+  margin-left: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  margin-right: 1px;
+  border-color:rgb(227, 227, 227) ;
+  outline: none;
+  
+}
+
+
+.form > input[type=submit]{
+  outline: none;
+  background-color: rgb(62, 59, 228);
+  color: white;
+  font-size: 15px;
+  border-color: rgba(95, 92, 245,0.8);
+}
+.submit{
+display: flex;
+flex-direction: row;
+justify-content: center;
+background-color: #e36f4b;
+color: white;
+border-radius: 5px;
+width: 150px;
+margin-left: 120px;
+margin-top: 8px;
+text-decoration: none;
+padding: 13px;
+/* text-decoration: none; */
+}
+input[type=submit]:hover{
+  background-color: none;
+}
+
+.some-class{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 100px;
+  margin-left: 120px ;
+
+  
+}
+h5{
+  font-weight: 200px;
+}
+.some-class > label{
+  padding: 5px;
+  
+}
+/*  */
+
+/* Style the custom radio button */
+
+
+
+.male{
+  border: 2px solid black;
+}
+.signup-button{
+display: flex;
+justify-content: center;
+background-color: none;
+color: white;
+margin-top: 10px;
+}
+.signup{
+/* background-color: white; */
+border: none;
+cursor:pointer;
+text-decoration: underline;
+margin-left: 20px;
+}
+
+.birthday,.gender{
+  margin-left: 6px;
+  outline: none;
+}
+.warning{
+  font-size: 10px;
+  margin-left: 8px;
+  width: 390px;
+  margin-top: -10px;
+}
+.birthday-content{
+  display: flex;
+}
+.quick{
+margin-top: -15px;
+}
+.already{
+background-color: white;
+outline: none;
+border: none;
+text-decoration: underline;
+margin-left: 20px;
+
+}
+.already:hover{
+background-color: white;
+cursor: pointer;
+
+}
+.submit-signup{
+  background-color: #e36f4b;
+  border: none;
+  cursor: pointer;
+  /* border-color: #e36f4b; */
+ /* outline:#e36f4b; */
+
+}
+.submit-signup:hover{
+  background-color: #e36f4b;
+  outline:none;
+  cursor: pointer;
+}
+.div--signup{
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  line-height: 50px;
+}
+.footer {
+  height: 100px;
+  width: 100%;
+  margin-top: 10px ;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.footer-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.footer-links li {
+  margin-right: 20px;
+}
+
+.footer-links li:last-child {
+  margin-right: 0;
+}
+
+.footer-links a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-company {
+  font-size: 14px;
+  color: #999;
+  margin: 0;
+}
