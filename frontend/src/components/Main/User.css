@@ -1,0 +1,88 @@
+.form-personal {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .h-form {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  /* .name-input,
+  .surname-input,
+  input[type="number"],
+  select {
+   
+  }
+   */
+  
+  .submit-button,.logout-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  
+  .logout-button {
+    background-color: #f44336;
+  }
+  
+ 
+  
+  input[readonly],
+  select[disabled] {
+    background-color: #f2f2f2;
+  }
+  
+  .name-label {
+    margin-top: 30px;
+  }
+  
+  .surname-label {
+    margin-top: 20px;
+  }
+  
+  .birthday-label {
+    margin-top: 20px;
+  }
+  
+  .gender-label {
+    margin-top: 20px;
+  }
+ 
+  
+  .height-label {
+    margin-top: 20px;
+  }
+  
+  .weight-label {
+    margin-top: 20px;
+  }
+  
+  .name-input,
+  .surname-input,
+  .birthday-input,
+  .gender-select,
+  .height-input,
+  .weight-input {
+    margin-top: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
